@@ -70,10 +70,14 @@ function calcTotal(){
 
 
 <html><head><title>Choose a Color</title>
+<script language="javascript">function selectColor(selectColor){
+		document.bgColor=selectColor;
+	}
+	</script>
 </head>
 <body>
 <h3>Choose a color for your background:</h3>
-<form name="frmColor" action="javascript:void(0);"align="center"> 
+<form name="frmColor" action="javascript:void(0);"> 
 <input type="submit" value="White" name="bW" onClick="selectColor('White')">
 <input type="submit" value="Yellow" name="bY" onClick="selectColor('Yellow')">						   
 <input type="submit" value="Fuchsia" name="bF" onClick="selectColor('Fuchsia')">
