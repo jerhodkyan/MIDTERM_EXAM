@@ -2,7 +2,9 @@
 <body bgcolor="#FFFF99" text="#800000">
 <hl align="center">Fishing Store Order Form</hl>
 <p align="center">We rent all of our fishing equipment by the week.</p>
+    
 <form method="post" name="form" action="javascript:void(0)">
+    
 <table border="0" width="39" align="center">
 <tr>
 <td width="48"><b>Product Name</b></td>
@@ -19,6 +21,7 @@ Select Quantity</option>
 <option value="2">2</option>
 <option value="3">3</option>
 </select></td></tr><tr>
+    
 <td> width="48">1 Tackle Box</td>
 <td> width="10%">
 <input type="text" name="txtBox" size="5" value="2.55"></td>
@@ -29,6 +32,7 @@ Select Quantity</option>
 <option value="2">2</option>
 <option value="3">3</option>
 </select></td></tr><tr>
+    
 <td> width="48">1 Taga Box</td>
 <td> width="10%">
 <input type="text" name="txtTaga" size="5" value="1.75"></td>
@@ -39,6 +43,7 @@ Select Quantity</option>
 <option value="2">2</option>
 <option value="3">3</option>
 </select></td></tr><tr>
+    
 <p align="center">
 <input type="submit" value="Calculate your order" name="btnSubmit" onClick="calcTotal()">
 <input type="reset" value="Reset" name="btnReset">
@@ -46,7 +51,8 @@ Select Quantity</option>
 <p align="center">
 <input type="text" name="txtTotal" size="10" value="0.00"></p>
 </form>
-<script language="javascript"> function calcTotal(){
+    
+<script language="javascript">function calcTotal(){
 var strRod, strBox, prRod, prBox, strTotal;
 strRod=document.form.qRod.value;
 strBox=document.form.qBox.value;
